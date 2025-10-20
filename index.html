@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Francisco International Airport (SFO)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>SFO</h1>
+                    <span>San Francisco International Airport</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#flights">Flights</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#parking">Parking</a></li>
+                    <li><a href="#terminal">Terminal Map</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Welcome to SFO</h1>
+            <p>Your Gateway to the Bay Area and Beyond</p>
+            <div class="hero-buttons">
+                <a href="#flights" class="btn btn-primary">Flight Information</a>
+                <a href="#parking" class="btn btn-secondary">Book Parking</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="flights" class="section flights">
+        <div class="container">
+            <h2>Flight Information</h2>
+            <div class="flight-search">
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="arrivals">Arrivals</button>
+                    <button class="tab-btn" data-tab="departures">Departures</button>
+                </div>
+                <div class="search-box">
+                    <input type="text" placeholder="Search by flight number, airline, or destination">
+                    <button class="btn btn-primary">Search</button>
+                </div>
+            </div>
+            <div class="info-cards">
+                <div class="card">
+                    <div class="icon">✈️</div>
+                    <h3>Real-Time Updates</h3>
+                    <p>Track your flight status in real-time with instant notifications</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🌍</div>
+                    <h3>Global Connections</h3>
+                    <p>Over 50 airlines serving 150+ destinations worldwide</p>
+                </div>
+                <div class="card">
+                    <div class="icon">⏱️</div>
+                    <h3>Quick Check-in</h3>
+                    <p>Save time with mobile check-in and TSA PreCheck</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section services">
+        <div class="container">
+            <h2>Airport Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="service-icon">🍽️</div>
+                    <h3>Dining</h3>
+                    <p>World-class restaurants, cafes, and grab-and-go options throughout all terminals</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">🛍️</div>
+                    <h3>Shopping</h3>
+                    <p>Duty-free shops, boutiques, and convenience stores for all your travel needs</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">📶</div>
+                    <h3>Free WiFi</h3>
+                    <p>Complimentary high-speed internet access throughout the entire airport</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">🏨</div>
+                    <h3>Airport Hotels</h3>
+                    <p>On-site and nearby hotels for layovers and early departures</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">🚗</div>
+                    <h3>Ground Transportation</h3>
+                    <p>BART, rental cars, shuttles, taxis, and rideshare pickup zones</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">♿</div>
+                    <h3>Accessibility</h3>
+                    <p>Full accessibility services and assistance for passengers with disabilities</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="parking" class="section parking">
+        <div class="container">
+            <h2>Parking Options</h2>
+            <div class="parking-grid">
+                <div class="parking-card">
+                    <h3>Short-Term Parking</h3>
+                    <p class="price">$4/hour</p>
+                    <ul>
+                        <li>Perfect for pickups and drop-offs</li>
+                        <li>Located near all terminals</li>
+                        <li>First 30 minutes free</li>
+                    </ul>
+                    <button class="btn btn-primary">Book Now</button>
+                </div>
+                <div class="parking-card featured">
+                    <div class="badge">Most Popular</div>
+                    <h3>Long-Term Parking</h3>
+                    <p class="price">$25/day</p>
+                    <ul>
+                        <li>Extended stay discounts available</li>
+                        <li>Free shuttle service to terminals</li>
+                        <li>Covered and uncovered options</li>
+                    </ul>
+                    <button class="btn btn-primary">Book Now</button>
+                </div>
+                <div class="parking-card">
+                    <h3>Valet Parking</h3>
+                    <p class="price">$40/day</p>
+                    <ul>
+                        <li>Premium convenience</li>
+                        <li>Terminal-side service</li>
+                        <li>Vehicle care available</li>
+                    </ul>
+                    <button class="btn btn-primary">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="terminal" class="section terminal-info">
+        <div class="container">
+            <h2>Terminal Information</h2>
+            <div class="terminals">
+                <div class="terminal-card">
+                    <h3>Terminal 1</h3>
+                    <p><strong>Airlines:</strong> Southwest Airlines</p>
+                    <p><strong>Gates:</strong> B1-B28</p>
+                </div>
+                <div class="terminal-card">
+                    <h3>Terminal 2</h3>
+                    <p><strong>Airlines:</strong> American Airlines, Virgin America (Alaska)</p>
+                    <p><strong>Gates:</strong> D1-D16</p>
+                </div>
+                <div class="terminal-card">
+                    <h3>Terminal 3</h3>
+                    <p><strong>Airlines:</strong> United Airlines (Domestic)</p>
+                    <p><strong>Gates:</strong> E1-F22</p>
+                </div>
+                <div class="terminal-card">
+                    <h3>International Terminal</h3>
+                    <p><strong>Airlines:</strong> International Carriers & United International</p>
+                    <p><strong>Gates:</strong> A1-A15, G1-G14</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2>Contact & Information</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <h3>📞 General Information</h3>
+                    <p>(650) 821-8211</p>
+                    <p>Available 24/7</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📍 Address</h3>
+                    <p>San Francisco International Airport</p>
+                    <p>San Francisco, CA 94128</p>
+                </div>
+                <div class="contact-item">
+                    <h3>🕐 Airport Hours</h3>
+                    <p>Open 24 hours</p>
+                    <p>365 days a year</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#flights">Flight Status</a></li>
+                        <li><a href="#parking">Parking</a></li>
+                        <li><a href="#terminal">Terminal Map</a></li>
+                        <li><a href="#services">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Traveler Resources</h4>
+                    <ul>
+                        <li><a href="#">TSA Guidelines</a></li>
+                        <li><a href="#">Airport Map</a></li>
+                        <li><a href="#">Lost & Found</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>About SFO</h4>
+                    <ul>
+                        <li><a href="#">News & Updates</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Business</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 San Francisco International Airport. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
